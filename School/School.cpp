@@ -7,9 +7,9 @@ int main() {
     int speed, time, distance_to_school;
     cin >> speed >> time >> distance_to_school;
     if (speed * time < distance_to_school) {
-        cout << "no";
+        cout << "NO";
     } else {
-        cout << "yes";
+        cout << "YES";
     }
 
     return 0;
